@@ -6,10 +6,10 @@ public class Example_03 {
 	}
 	public int publicMethod(int i) {
 		System.out.println("执行publicMethod()方法");
-		return i;
+		return i * 100;
 	}
 	protected int protectedMethod(String s, int i) 
-			throws NumberFormatException {
+	throws NumberFormatException {
 		System.out.println("执行protectedMethod()方法");
 		return Integer.valueOf(s) + i;
 	}
